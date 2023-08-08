@@ -1,0 +1,47 @@
+.task {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: grab;
+    .titleContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        label{
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        button{
+            background: none;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: large;
+        }
+    }
+    p{
+        color: gray;
+        font-size: 0.9rem;
+    }
+    
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        .deadline{
+            font-size: 0.8rem;
+            opacity: 0.5;
+        }
+        .favIcon{
+            cursor: pointer;
+            outline: none;
+            border: none;
+            background: none;
+        }
+    }
+}
